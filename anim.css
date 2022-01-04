@@ -1,0 +1,114 @@
+/* Slide One */
+.header .slider .slide .content .other h5:hover{ /*Другие напитки*/
+    color: white;
+}
+.header .slider .slide .content .offer h1:hover{ /* Надпись */
+    transform: scale(110%);
+    transition: .5s;
+    cursor: default;
+}
+.header .slider .slide .content .offer h1{
+    transition: .5s;
+}
+.header .slider .slide .content .banner_one .redout:hover{ /* Банер */
+    background-color: rgba(0, 0, 0, 0);
+    transition: .5s;
+}
+.header .slider .slide .content .banner_one .redout{
+    transition: .5s;
+}
+.arrow{
+    animation: arrow 2s infinite ease-out; /* Стрелка */
+}
+.arrow.two{
+    opacity: 0;
+    animation-delay: 1.2s;
+}
+.arrow.three{
+    opacity: 0;
+    animation-delay: 1.6s;
+}
+@keyframes arrow{
+    0%{
+        bottom: 40px;
+        opacity: 1;
+    }
+    100%{
+        bottom: 0px;
+        opacity: 0;
+    }
+}
+.header .slider .slide .content .offer_two h1:hover{ /* Слайдеры */
+    transform: scale(110%);
+    transition: .5s;
+    cursor: default;
+}
+.header .slider .slide .content .offer_two h1{
+    transition: .5s;
+}
+.header .slider .slide .content .offer_two h2:hover{
+    transform: scale(110%);
+    transition: .5s;
+    cursor: default;
+}
+.header .slider .slide .content .offer_two h2{
+    transition: .5s;
+}
+.header .slider .slide .content .title_three h1:hover{
+    transform: scale(110%);
+    transition: .5s;
+    cursor: default;
+}
+.header .slider .slide .content .title_three h1{
+    transition: .5s;
+}
+.header .slider .slide .content .title_four h1:hover{
+    transform: scale(110%);
+    transition: .5s;
+    cursor: default;
+}
+.header .slider .slide .content .title_four h1{
+    transition: .5s;
+}
+.content_two .up .together .redout:hover{ /* Банеры Внизу */
+    background: rgb(255, 0, 0, .0);
+    transition: .5s;
+}
+.content_two .up .together .redout{
+    transition: .5s;
+}
+.content_two .up .vertical .drinks .blackoutttt:hover{
+    background: rgb(255, 0, 0, .0);
+    transition: .5s;
+}
+.content_two .up .vertical .drinks .blackoutttt{
+    transition: .5s;
+}
+.content_two .up .vertical .design .blackoutttt:hover{
+    background: rgb(255, 0, 0, .0);
+    transition: .5s;
+}
+.content_two .up .vertical .design .blackoutttt{
+    transition: .5s;
+}
+.content_two .down .vertical .city .blackoutttt:hover{
+    background: rgb(255, 0, 0, .0);
+    transition: .5s;
+}
+.content_two .down .vertical .city .blackoutttt{
+    transition: .5s;
+}
+.content_two .down .vertical .formula .blackoutttt:hover{
+    background: rgb(255, 0, 0, .0);
+    transition: .5s;
+}
+.content_two .down .vertical .formula .blackoutttt{
+    transition: .5s;
+}
+.content_two .waste .redandblack:hover{
+    background: rgb(255, 0, 0, .0);
+    transition: .5s;
+}
+.content_two .waste .redandblack{
+    transition: .5s;
+}
